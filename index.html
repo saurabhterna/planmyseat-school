@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thane School Admissions 2027-28 · PlanMySeat</title>
+  <meta name="description" content="Free tracker for 2027-28 Nursery, Jr KG and Class 1 admissions in Thane West and Ghodbunder Road.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <p class="brand"><a href="https://planmyseat.in">PlanMySeat</a></p>
+      <h1>Thane school admissions 2027-28</h1>
+      <p class="lead">Form dates and age rules for Nursery, Jr KG and Class 1 in Thane West and Ghodbunder Road. Free and independent.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <p class="notice">Always confirm dates on the school's official notice. Parents apply to schools directly; PlanMySeat does not fill forms or collect documents.</p>
+
+    <p id="sample-banner" class="sample-banner" hidden>Testing mode: the schools below are SAMPLE entries, not real schools.</p>
+
+    <section class="panel" aria-labelledby="age-title">
+      <h2 id="age-title">Which class is my child eligible for?</h2>
+      <form id="age-form" class="age-form">
+        <label for="birth-date">Child's date of birth</label>
+        <div class="age-row">
+          <input type="date" id="birth-date" required>
+          <button type="submit">Check</button>
+          <button type="button" id="age-clear" class="secondary" hidden>Clear</button>
+        </div>
+      </form>
+      <p id="age-message" class="age-message" aria-live="polite"></p>
+      <p class="small">The date of birth stays on your device. Nothing is sent or saved.</p>
+    </section>
+
+    <section aria-labelledby="list-title">
+      <h2 id="list-title">Schools</h2>
+      <div class="filters">
+        <label>Area
+          <select id="filter-area"><option value="">All areas</option></select>
+        </label>
+        <label>Board
+          <select id="filter-board"><option value="">All boards</option></select>
+        </label>
+      </div>
+      <p id="count" class="small" aria-live="polite"></p>
+      <div id="school-list" class="school-list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>RTE 25% seats have a separate government application process and dates.</p>
+      <p>Age eligibility shown here is a guide. Each school's notice is final.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

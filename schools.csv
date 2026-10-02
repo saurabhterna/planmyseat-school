@@ -1,0 +1,4 @@
+name,area,board,classes,form_opens,form_closes,selection_method,age_reference_date,official_link,verified_on
+SAMPLE School A,Thane West,State Board (SSC),Nursery; Jr KG; Class 1; RTE 25%,2026-09-15,2026-10-31,Lottery,2027-12-31,https://example.com/sample-school-a,SAMPLE
+SAMPLE School B,Ghodbunder Road,CBSE,Nursery; Class 1,2026-11-10,2026-12-05,"First come, first served",2027-03-31,https://example.com/sample-school-b,SAMPLE
+SAMPLE School C,Ghodbunder Road,ICSE,Jr KG; Class 1,2026-08-01,2026-09-20,Points system,2027-06-01,https://example.com/sample-school-c,SAMPLE
